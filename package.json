@@ -1,0 +1,18 @@
+{
+  "name": "wallet-sdk-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:2": "browserify -p esmify -p tinyify main.js -o 'output/main.js'"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.1.5",
+    "@scure/bip32": "^1.1.3",
+    "@scure/bip39": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1",
+    "tinyify": "^4.0.0"
+  }
+}
